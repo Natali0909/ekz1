@@ -1,0 +1,287 @@
+/* Reset */
+body, h1, h2, h3, p, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header .contact span {
+  margin-right: 10px;
+}
+
+/* Hero Section */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* Description Section */
+/* Оформлення секції опису */
+.description {
+  display: flex;
+  gap: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  width: 65%;
+}
+
+.text h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.more-text {
+  display: none; /* Сховати додатковий текст за замовчуванням */
+}
+
+.read-more-btn {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.info {
+  width: 30%;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+/* Rooms */
+.rooms {
+  padding: 20px;
+  background-color: #f9f9f9;
+  
+}
+
+.room {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 30px;
+}
+
+.room-image {
+  width: 40%;
+  object-fit: cover;
+}
+
+.room-details {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.room-details h3 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+}
+
+.room-details .description {
+  margin: 10px 0;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.room-details .amenities {
+  margin: 10px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.room-details .amenities li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+}
+
+.room-details .capacity,
+.room-details .price {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn {
+  margin-top: 10px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+
+/* Map */
+.map {
+  padding: 20px;
+  background: #fff;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+footer .socials a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* Карусель */
+/* Карусель */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0; 
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    width: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 100%; /
+}
+
+.carousel-item {
+    width: 100%; 
+    height: auto;
+    transition: transform 1s ease-in-out;
+    opacity: 0; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.carousel-item.active {
+    opacity: 1; 
+    position: relative;
+}
+
+/* Геройський блок */
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+
+
+/* Центрування контенту */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
